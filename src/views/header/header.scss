@@ -1,0 +1,56 @@
+.navbar {
+	background-color: #2a3584;
+	.navbar-toggler {
+		border-color: #ffffff78;
+		.navbar-toggler-icon {
+			filter: invert(1);
+		}
+	}
+	.navbar-brand img {
+		width: 65px;
+	}
+	.navbar-nav {
+		margin-left: auto;
+		margin-right: auto;
+		a {
+			text-decoration: none;
+			color: #fff !important;
+		}
+		.nav-link {
+			padding-left: 1.5rem;
+			padding-right: 1.5rem;
+		}
+	}
+	.search-form {
+		display: flex;
+		justify-content: flex-end;
+		width: 260px;
+		.search-input {
+			opacity: 0;
+			width: 20px;
+			border-radius: 18px;
+			padding: 5px 15px;
+			outline: none;
+			border: 1px solid #2a3584;
+			color: grey;
+			transition: width 1.35s;
+			&::placeholder {
+				color: #cccccc;
+				font-size: 14px;
+			}
+		}
+		.search {
+			margin-left: 1rem;
+			cursor: pointer;
+			img {
+				width: 20px;
+			}
+		}
+		&:hover {
+			.search-input {
+				width: 250px;
+				opacity: 1;
+			}
+		}
+	}
+}

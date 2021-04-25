@@ -1,0 +1,83 @@
+@import 'bootstrap/scss/bootstrap-grid.scss';
+.banner-wrapper {
+	background-color: #2a3584;
+	background-image: url('../../assets/2-banner/banner-rounded-001.svg'),
+		url('../../assets/2-banner/banner-rounded-002.svg');
+	background-repeat: no-repeat;
+	background-size: 40%, 30%;
+	background-position: -10%, 125%;
+	height: 60vh;
+	@include media-breakpoint-down(sm) {
+		height: auto;
+	}
+	.banner-wrapper__container {
+		height: 100%;
+		.banner-wrapper__row {
+			align-items: center;
+			height: 100%;
+			.text-part {
+				color: #fff;
+				font-weight: 500;
+				@include media-breakpoint-down(sm) {
+					margin-bottom: 30px;
+				}
+				p {
+					letter-spacing: 2px;
+					font-size: 51px;
+					line-height: 60px;
+					@include media-breakpoint-down(sm) {
+						font-size: 40px;
+						line-height: 40px;
+					}
+				}
+				h6 {
+					font-size: 13px;
+					letter-spacing: 0.5px;
+					line-height: 22px;
+				}
+			}
+			.image-part {
+				height: 100%;
+				@include media-breakpoint-down(sm) {
+					margin-bottom: -45px;
+				}
+
+				@media (min-width: 768px) {
+					margin-bottom: -20%;
+				}
+				@media (min-width: 992px) {
+					margin-bottom: -15%;
+				}
+
+				@media (min-width: 1200px) {
+					margin-bottom: -18%;
+				}
+
+				@media (min-width: 1400px) {
+					margin-bottom: -22%;
+				}
+				img {
+					@media (min-width: 576px) {
+						width: 70%;
+					}
+
+					@media (min-width: 768px) {
+						width: 108%;
+					}
+
+					@media (min-width: 992px) {
+						width: 100%;
+					}
+
+					@media (min-width: 1200px) {
+						width: 70%;
+					}
+
+					@media (min-width: 1400px) {
+						width: 80%;
+					}
+				}
+			}
+		}
+	}
+}

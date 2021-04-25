@@ -1,0 +1,81 @@
+@import '../../common.scss';
+.people-section-row {
+	padding: 0px 30px;
+	margin-top: 50px;
+	justify-content: center;
+	.smiley-img-wrapper {
+		border-radius: 50%;
+		width: 45px;
+		background: #e962b6;
+		display: flex;
+		justify-content: center;
+		height: 45px;
+		.smiley-img {
+			width: 25px;
+		}
+	}
+	.people-section-row__heading {
+		color: $text-color;
+		padding: 0px 0px 10px 30px;
+		margin-bottom: 20px;
+	}
+	.people-actions {
+		display: flex;
+		padding: 0 20px;
+		.edit {
+			height: 30px;
+			font-size: small;
+			color: #fbcc46;
+			border: 1px solid #fefade;
+			background-color: #fefade;
+			outline: none;
+			padding: 0px 20px;
+			border-radius: 4px;
+			margin: 0 5px;
+		}
+		.add {
+			height: 30px;
+			font-size: small;
+			color: #956bc8;
+			border: 1px solid #eedeff;
+			background-color: #eedeff;
+			outline: none;
+			padding: 0px 20px;
+			border-radius: 4px;
+			margin: 0 5px;
+		}
+		.cancel {
+			height: 30px;
+			font-size: small;
+			color:#da8686;
+			border: 1px solid#fceeee;
+			background-color:#fceeee;
+			outline: none;
+			padding: 0px 20px;
+			border-radius: 4px;
+			margin: 0 5px;
+		}
+	}
+}
+.card-wrapper {
+	position: relative;
+	border: 1px solid #f9f9f9;
+	padding: 10px;
+	border-radius: 10px;
+	box-shadow: 2px 10px 10px #f1f1f1;
+	margin: 10px 15px 10px 15px;
+	background-color: #fbfbfd;
+	cursor: pointer;
+	.square {
+		border-radius: 10px;
+		max-width: 90%;
+		min-height: 160px;
+	}
+	.card-details__text {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		padding: 10px;
+	}
+}

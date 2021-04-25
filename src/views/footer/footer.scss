@@ -1,0 +1,17 @@
+.footer-wrapper {
+  background-color: #2a3584;
+	background-image: url('../../assets/2-banner/banner-rounded-001.svg'),
+		url('../../assets/2-banner/banner-rounded-002.svg');
+	background-repeat: no-repeat;
+	background-size: 40%, 30%;
+	background-position: -10%, 125%;
+  min-height: 30vh;
+  padding: 30px 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  .logo {
+    width: 65px;
+  }
+}

@@ -1,0 +1,70 @@
+.edit-icon-wrapper {
+	.edit-icon-img__wrapper {
+		background-color: #dcf0fe;
+		width: 30px;
+		height: 30px;
+		border-radius: 50%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		cursor: pointer;
+		.edit-icon {
+			width: 15px;
+		}
+	}
+}
+.empty-circle {
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+	background-color: #fff;
+	border: 1px solid lightgray;
+}
+.checked-icon-wrapper {
+	.check-icon-img__wrapper {
+		background-color: #1c2c71;
+		width: 20px;
+		height: 20px;
+		border-radius: 50%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		cursor: pointer;
+		.check-icon {
+			width: 12px;
+		}
+	}
+}
+.delete-icon-wrapper {
+	.delete-icon-img__wrapper {
+		background-color: #fceeee;
+		width: 30px;
+		height: 30px;
+		border-radius: 50%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		cursor: pointer;
+		.delete-icon {
+			width: 15px;
+		}
+	}
+}
+.user-icon-wrapper {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+	.user-icon-img__wrapper {
+		background-color: #dcf0fe;
+		width: 100px;
+		height: 100px;
+		border-radius: 50%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		.user-icon {
+			width: 50px;
+		}
+	}
+}

@@ -1,0 +1,13 @@
+@import '../../common.scss';
+
+.text-wrapper {
+	text-align: left;
+	padding: 40px;
+	.text-wrapper__heading {
+    color: $text-color;
+	}
+	.text-wrapper__para {
+    margin-top: 20px;
+		color: #c1c1d4;
+	}
+}

@@ -1,0 +1,23 @@
+@import '../../common.scss';
+@import 'bootstrap/scss/bootstrap-grid.scss';
+
+.contact-us-wrapper {
+	.contact-us-heading {
+		color: $text-color;
+		margin-right: auto;
+		margin-left: auto;
+		margin-bottom: 10vh;
+	}
+	.contact-form {
+		box-shadow: 6px 0 40px #ece9e9;
+		padding: 25px 30px;
+		border-radius: 10px;
+	}
+	.map-wrapper {
+		height: 80vh;
+		position: relative;
+		@include media-breakpoint-down(xs) {
+			width: 250px !important;
+		}
+	}
+}
